@@ -51,7 +51,52 @@ async def help(client, message):
             ),
             reply_to_message_id=message.message_id
         )
-    
+@Client.on_message(filters.command(["about"]) & filters.private)
+
+async def about(client, message):
+
+    try:
+
+        await message.reply_text(
+
+            text=script.ABOUT_MSG,
+
+            disable_web_page_preview=True,
+
+            reply_markup=InlineKeyboardMarkup(
+
+                [
+
+                    [
+
+                        InlineKeyboardButton("BACK", callback_data="help_data"),
+
+                        InlineKeyboardButton("START", callback_data="start_data"),
+
+                    ],
+
+                    [
+
+                        InlineKeyboardButton(
+
+                            "SOURCE CODE", url="https://github.com/TroJanzHEX/Auto-Filter-Bot-V2")
+
+                    ]
+
+                ]
+
+            ),
+
+            reply_to_message_id=message.message_id
+
+        )
+
+    except:
+
+        pass
+
+ 
+
 
 
 
