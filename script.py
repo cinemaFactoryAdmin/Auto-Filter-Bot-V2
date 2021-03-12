@@ -1,7 +1,7 @@
 class script(object):
 
 
-    START_MSG = """ <b>Hi {}
+    STARTt_MSG = """ <b>Hi {}
 
 You can call this as an Auto Filter Bot if you like :D
 
