@@ -14,7 +14,7 @@ No need to add filters for your files or movies from now on!
 For more click <i>help</i></b>"""
 
 
-    HELP_MSG = """<b>How to use the bot??</b>
+    HELPp_MSG = """<b>How to use the bot??</b>
 
 <i>
 * Add bot to your group with admin rights.
@@ -56,7 +56,7 @@ Bot will automatically search for your files and give links to that!
 <b>© @TroJanzHEX</b>"""
 
 
-    ABOUT_MSG = """⭕️<b>My Name : Auto Filter Bot V2</b>
+    ABOUTt_MSG = """⭕️<b>My Name : Auto Filter Bot V2</b>
     
 ⭕️<b>Creater :</b> @TroJanzHEX
 
