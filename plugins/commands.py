@@ -51,7 +51,7 @@ async def help(client, message):
             ),
             reply_to_message_id=message.message_id
         )
-    except:
-        pass
+    
+
 
 
